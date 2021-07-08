@@ -1,1 +1,26 @@
+simple_setting: true
 
+site_name: My Forums
+max_avatars: 7
+
+float_setting:
+  default: 3.14
+  
+ whitelisted_fruits:
+  default: apples|oranges
+  type: list
+  description:
+    en: English text
+    ar: نص باللغة العربية
+    fr: Texte français
+
+favorite_fruit:
+  default: orange
+  type: enum
+  choices:
+    - apple
+    - banana
+integer_setting:
+  default: 10
+  min: 5
+  max: 100
